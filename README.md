@@ -176,7 +176,7 @@ query{
 
 ```
 mutation{
-  UpdateLinkDescription(linkId:"linkID", description:"NEW_DESCRIPTION"){
+  updateLinkDescription(linkId:"linkID", description:"NEW_DESCRIPTION"){
     id
     description
   }
