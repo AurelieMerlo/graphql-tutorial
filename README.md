@@ -172,3 +172,25 @@ query{
 }
 ```
 
+10. Update link description
+
+```
+mutation{
+  UpdateLinkDescription(linkId:"linkID", description:"NEW_DESCRIPTION"){
+    id
+    description
+  }
+}
+```
+
+11. Destroy link
+
+```
+mutation{
+  destroyLink(linkId:"linkID"){
+    id
+    description
+  }
+}
+```
+
